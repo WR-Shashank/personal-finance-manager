@@ -1,0 +1,23 @@
+# ── Build output ───────────────────────────────────────────────────
+target/
+
+# ── IDE ────────────────────────────────────────────────────────────
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+*.swp
+*.swo
+
+# ── OS ─────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Maven wrapper jar (downloaded at build time) ──────────────────
+!.mvn/wrapper/maven-wrapper.jar
+
+# ── Env / secrets ──────────────────────────────────────────────────
+.env
+*.env.local
